@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "backend": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yaku",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
-    "mogoose": "^0.0.1-security",
     "mongoose": "^6.3.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
